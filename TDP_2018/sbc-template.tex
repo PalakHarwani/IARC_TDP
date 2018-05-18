@@ -12,16 +12,17 @@
 \title{Team Description Paper of \\
 Indian Institute of Technology Kharagpur for IARC}
 
-\author[1]{Somesh Kumar}
-\author[2]{Gaurav Gardi}
-\author[2]{Manash Pratim Das}
-\author[2]{Krishnakant Deshmukh}
-\author[2]{Ashwary Anand}
-\author[2]{Amit Pathak}
+\author[**]{Somesh Kumar}
+\author[*]{Gaurav Gardi}
+\author[*]{Manash Pratim Das}
+\author[*]{Krishnakant Deshmukh}
+\author[*]{Ashwary Anand}
+\author[*]{Amit Pathak}
 
-\affil[1]{Professor\\ Depeartment of Mathematics\\Indian Institute of Technology, Kharagpur}
+\affil[*]{Students\\ Indian Institute of Technology, Kharagpur}
 
-\affil[2]{Students\\ Indian Institute of Technology, Kharagpur}
+\affil[**]{Professor\\ Depeartment of Mathematics\\Indian Institute of Technology, Kharagpur}
+
 \renewcommand\Authands{ and }
 
 \begin{document}
@@ -31,12 +32,12 @@ Indian Institute of Technology Kharagpur for IARC}
 \begin{abstract}
 
 \begin{center}\textbf{ABSTRACT}\end{center}
-This paper reports the current preparation strategy of Aerial Robotics Kharagpur,
+This paper describes the current preparation strategy of Aerial Robotics Kharagpur,
 participating in IARC Mission 7 2018. Our main goal includes robust, indoor 
 localization in GPS denied environments supported by optical flow sensors. 
 Other features like ground i-robots detection and differentiation between the 
 target bots and patrol bots is also discussed, followed by a brief description 
-of the herding algorithm AI algorithm to be used.
+of the herding AI algorithm to be used.
 \end{abstract}
 \section{INTRODUCTION}
 Our research group, Aerial Robotics Kharagpur, started in January 2015 with IARC 
@@ -48,7 +49,7 @@ development and testing while the hardware gets ready. As mission 7 is based
 indoor, hence we made April Tags based indoor true value setup. We have a website[18] 
 and a GitHub Organization[19].
 \section{SIMULATION}
-Gazebo, an open source robotics simulator is used to simulate the robot along with the mathematical, physical and visualization model.It also emulates the environment with the physics and other interactive robots.We have made ROS plugin for the behaviour of i-robots, whereas the quadcopter model,
+Gazebo, an open source robotics simulator is being used to simulate the robot along with its mathematical, physical and visualization model.It also emulates the environment with the physics and other interactive robots.We have made ROS plugin for the behaviour of i-robots, whereas the quadcopter model,
 is made on top of hector\_gazebo, supported by JSBSim, ArduCopter, RotorS,MAVROS,ardupilot\_sitl\_gazebo plugin. For simulations on Pixhawk, we used PX4 SITL after interfacing it with ROS.
 \begin{center}\includegraphics[scale=0.15]{sim} \\
 \textbf{Figure 1. Gazebo Simulator.}\end{center}
@@ -134,12 +135,12 @@ where $p_Y$ = $p^k_Y$ + $\sigma^k^+^1_Y$ - $\sigma^k_Y$. The MAV’s new positio
         \end{itemize}
 
 \section{OBSTACLE AVOIDANCE}
-    IARC consists of moving obstacle robots which need to be avoided when they are on the way of the desired trajectory and path.
+    IARC consists of moving obstacle robots which need to be avoided if they come in the way of the aerial vehicle.
     \\ \\
     Obstacles Description: 4 Ground Robots with cylinders attached on top of them to form vertical moving obstacles.
     \\ \\ 
     \textbf{Avoidance Algorithm Overview:} \\
-    The Obstacle Avoidance in IARC does not need to be global as the number of obstacles are less in number. So, we use 1-dimensional Lidar attached to a stepper motor to cover 360 degree obstacle detection. If the obstacle is closer than a threshold then multiple kinds of action can be taken:
+    The Obstacle Avoidance in IARC does not need to be global as the number of obstacles are less in number. So, we use 1-dimensional Lidar attached to a stepper motor to cover 360 degree view for obstacle detection. If the obstacle is closer than a certain threshold then multiple kinds of action can be taken:
     \begin{itemize}
         \item Wait for Obstacle to Move out of Path
         \item Avoid Obstacle by Creating a New Trajectory around the obstacle and come back to desired trajectory.
@@ -157,15 +158,15 @@ where $p_Y$ = $p^k_Y$ + $\sigma^k^+^1_Y$ - $\sigma^k_Y$. The MAV’s new positio
 
 \section{SYSTEM CONTROL}
 \subsection{Pixhawk}
-    We have used Pixhawk 2.0 which runs the PX4 v1.6.0 firmware. PX4 is a nearly feature-complete open source UAV firmware. Thus our high level control is utilizes the features of PX4 to its fullest. Since, most of PX4’s autonomous features uses GPS, we used motion capture system to get position data from other sources like vision. Position estimates were sent from an onboard computer. This data was used to update its local position estimate relative to the local origin.  
+    We have used Pixhawk which runs the PX4 v1.6.0 firmware. PX4 is a nearly feature-complete open source UAV firmware. Thus our high level control utilizes the features of PX4 to its fullest. Since, most of PX4’s autonomous features uses GPS, we use motion capture system to get position data from other sources like vision. Position estimates are sent from an onboard computer. This data is used to update the aerial vehicle's local position estimate relative to the local origin.  
 \subsection{MAVROS}
-    Since Pixhwak communicates in Micro Air Vehicle Link(MAVLink) protocol and both our ground station and onboard computer uses Robot Operating System(ROS), we used MAVROS for communication between onboard computer and Pixhawk. MAVROS is a MAVLink extendable communication node for ROS.
+    Since Pixhawk communicates in Micro Air Vehicle Link(MAVLink) protocol and both our ground station and onboard computer uses Robot Operating System(ROS), we used MAVROS for communication between onboard computer and Pixhawk. MAVROS is a MAVLink extendable communication node for ROS.
 \subsection{Ground Robot Tapping}
-    We use a vertical descent strategy, making our MAV go to a desired location ahead of the ground bot ,at a certain default height and then make it descend such that the descent takes the same amount of time as the ground bot to reach these desired coordinates on the ground. \\
+    The MAV is made to do all the required navigation at a default height(say 2.5 metres).For tapping on the ground i-robot, we use a vertical descent strategy.We make our MAV go to a certain calculated location ahead of the ground robot and then make it descend. This calculated position is such that the time required for the ground bot to reach this position is same as the time our MAV would require to descend to the ground robot's height .\\
 \\ Assuming a right handed Cartesian coordinate system \\
 \begin{center}
-\includegraphics[scale=0.3]{tap}\\
-\textbf{Tapping Mechanism}
+\includegraphics[scale=0.5]{tap}\\
+\textbf{Schematic of Tapping}
 \end{center}
 Let,
     
