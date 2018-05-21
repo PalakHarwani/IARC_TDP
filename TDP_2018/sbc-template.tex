@@ -12,16 +12,19 @@
 \title{Team Description Paper of \\
 Indian Institute of Technology Kharagpur for IARC}
 
-\author[**]{Somesh Kumar}
-\author[*]{Gaurav Gardi}
-\author[*]{Manash Pratim Das}
-\author[*]{Krishnakant Deshmukh}
-\author[*]{Ashwary Anand}
-\author[*]{Amit Pathak}
+\author[]{Palak Harwani}
+\author[]{Shubhika Garg}
+\author[]{Akshat Pandya}
+\author[]{Vidit Goel}
+\author[]{Aditi Singh}
+\author[]{Aman Modi}
+\author[]{Gaurav Suryawanshi}
+\author[]{Akshay Jain}
+\author[]{Anvee Naik}
 
-\affil[*]{Students\\ Indian Institute of Technology, Kharagpur}
+\affil[]{Students\\ Indian Institute of Technology, Kharagpur}
 
-\affil[**]{Professor\\ Depeartment of Mathematics\\Indian Institute of Technology, Kharagpur}
+
 
 \renewcommand\Authands{ and }
 
@@ -115,7 +118,23 @@ where $p_Y$ = $p^k_Y$ + $\sigma^k^+^1_Y$ - $\sigma^k_Y$. The MAV’s new positio
             \end{itemize}
     \begin{center}\includegraphics[scale=0.44]{trig} \\
     \textbf{Trignometric pose estimation from front camera}\end{center}   
-    \subsection{Position Estimation}
+    	\subsubsection{Color Thresholding}       
+			\begin{itemize}
+        		\item The detection of each ground robot will be done using color             thresholding. A color threshold for each of red and blue bots along with the grid axis is done. Image subtractions initially removes the grid from the feed so that bot detection becomes easier.
+        	\end{itemize}
+		\subsubsection{Detection}
+			\begin{itemize}           
+				\item Clustering Algorithms are use to classify the points obtained from thresholded image.           
+			\end{itemize}            
+		\subsubsection{Position estimation}        
+			\begin{itemize}            
+				\item Pixel coordinates are then converted into real world coordinates using perspective transformation.             
+			\end{itemize}     
+		\subsubsection{Orientation  Estimation}            
+			\begin{itemize}       
+				\item Orientation is estimated by comparing the last 5 frames data 		which is stored.                         
+			\end{itemize}    
+         \subsection{Position Estimation}
         Once the bots are detected, the noise associated with the dynamic observables of the moving bot will be filtered out using a Kalman filter to enable tracking of the bot.  This is achieved by the following steps:
         \begin{itemize}
             \item The Kalman Filter takes in the measured position of the bot(which in this case is the centre of the ellipse detected by the RHT) as well as its velocity from the video feed.
@@ -140,7 +159,7 @@ where $p_Y$ = $p^k_Y$ + $\sigma^k^+^1_Y$ - $\sigma^k_Y$. The MAV’s new positio
     Obstacles Description: 4 Ground Robots with cylinders attached on top of them to form vertical moving obstacles.
     \\ \\ 
     \textbf{Avoidance Algorithm Overview:} \\
-    The Obstacle Avoidance in IARC does not need to be global as the number of obstacles are less in number. So, we use 1-dimensional Lidar attached to a stepper motor to cover 360 degree view for obstacle detection. If the obstacle is closer than a certain threshold then multiple kinds of action can be taken:
+    The Obstacle Avoidance in IARC does not need to be global as the number of obstacles are less in number. So, we use 2-dimensional Lidar attached to a stepper motor to cover 360 degree view for obstacle detection. If the obstacle is closer than a certain threshold then multiple kinds of action can be taken:
     \begin{itemize}
         \item Wait for Obstacle to Move out of Path
         \item Avoid Obstacle by Creating a New Trajectory around the obstacle and come back to desired trajectory.
@@ -152,8 +171,10 @@ where $p_Y$ = $p^k_Y$ + $\sigma^k^+^1_Y$ - $\sigma^k_Y$. The MAV’s new positio
             \end{itemize}}
         \subsubsection*{Procedure II:}
             \begin{itemize}
-                \item Trajectory Generation Module is used to generate trajectories from node to node via the lines or directly.
-                \item This trajectory generation is recalculated on obstacle trigger and a visible graph is created around the obstacle and followed till next grid node.
+                \item The hexacopter would follow a biased curved path to reach the destination and at the same time avoid the obstacles.
+                \item The path is decided by comparing the angle between the lines joining current position-obstacle position and obstacle position-destination position.
+                \item The orientation of the hex is decided by a proportional based controller and is proportional to the difference of the above 2 angles.
+                \item Once the distance between hex and destination becomes greater than that between obstacle and destination, go to goal behaviour is resumed.
             \end{itemize}
 
 \section{SYSTEM CONTROL}
@@ -196,38 +217,36 @@ $Y_q^’$  = $Y_g + ut_0sin(\theta)$ \\
 \textbf{Figure 8. Hexcopter}\end{center}\\
 \subsection{Configuration}
 \begin{itemize}
+	\item A carbon-fiber Hex-rotor frame
+	\item The stress enduring parts reinforced with PLA 3D printed frames
+	\item Customised stands 3D printed using PLA
     \item Odroid XU4 : High Level Controller
-    \item Pixhawk 2.0 : Low Level Controller
+    \item Pixhawk : Low Level Controller
+    \item Tarot Gimbal T4-3D
     \item ESC     : Electronic Speed Controller, 45A OPTO
-    \item LiPo     : 11.1V, 3s, 6000mAh, 35C
-    \item Motors: 850kv BLDC
-    \item Propellers : 11” x 4.7”
-    \item Camera Front: 30fps, Field of View - 78 degrees, Aspect Ratio - 16:9
-    \item Camera Downward: 30 fps, Field of View - 170 degrees, Aspect Ratio - 16:9
-    \item Receiver : 6 channel PPM, PPM Encoder
-    \item Frame : HMF S680 Hexacopter
+    \item LiPo : 14.4V, 4s, 8000mAh, 15C
+    \item Motors: 650kv BLDC
+    \item Propellers : 12” x 4.5”
+    \item 3D printed Tapping plate
+    \item Camera Downward: SJ4000
+    \begin{itemize}
+    	\item Field of View - 78 degrees
+    	\item Aspect Ratio - 16:9
+    \end{itemize}
+    \item Camera Front : 
+    \item Receiver : 6 channel PPM
+    \item Kill switch 
 \end{itemize}
 
-\section{HERDING ALGORITHM AI}
-\subsection{Greedy Method}
-\begin{itemize}
-    \item The motif of this algorithm is to make as many bots cross the green line as possible with a fixed radius around the ground bot in which all the other bots will be herd with the centre bot towards the green line.
-    \item Before takeoff, the hexacopter will be fed with the direction information about the green and red lines. The direction information will tell where is the red line (east/west/north/south).
-    \item Once the hexacopter takes off, it will hold altitude at 1.5m (from ground) and hold position on the nearest node while holding its yaw.
-    \item It then follows the grid to:
-        \begin{itemize}
-            \item Detect the position of lines.
-            \item Follows the grids to scan for the ground bots.
-            \item Scan for the bots such that to reduce their variance below certain limit.
-        \end{itemize}
-    \item The hexacopter will now start to locate the closest bot to the green line.
-        \begin{itemize}
-        \item If ground bots are found in the herding radius of the centre bot, then it will herded with the centre bot towards the green line keeping them inside the circle of specified size. 
-        \item Once the centre bot crosses the green line, new centre bot among the herd is chosen and the loop is repeated.
-        \end{itemize}
-\end{itemize}
-
-\section{EMERGENCY KILL SWITCH}
+	\subsubsection{Hex Frame}
+	The main body of the drone is constructed of carbon fiber with custom made base and improvements made using PLA based 3D printed parts. 
+	\subsubsection{Motor mounts and other reinforced parts}
+	Stress analysis reveals certain places which undergo the maximum stress while take-off and landing. Of those the places which are not made of carbon fiber are reinforced using self designed 3D printed structures. The filament of the 3D printed material uses polylactic acid (PLA), which is a hard plastic.
+	\subsubsection{Main stand and Tapping plate}
+	The main stand is made out of PLA fixtures and PVC pipes. This stand also embeds in itself a 3D printed tapping plate at its bottom as shown in the picture. 
+	\subsubsection{Gimbal and Cameras}
+	We are using a Tarot 3-axis gimbal to stabilize the camera feed that we are getting of the wide angle camera. This gimbal is mounted at the front of the hexrotor that faces the camera downwards for the necessary feed.
+	\subsubsection{Emergency Kill Switch}
 \begin{itemize}
 \item One Dual-D flip flop CD4013B, 5 IRF540N MOSFETs, capacitors and resistors are used. We used the receiver’s signal as source to the circuit which is equivalent to the Pulse generator with variable duty cycle shown in the circuit. The leftmost MOSFET is a controller and the rest 4  mosfets  are connected in series with the negative terminal of LIPO(power source). 4 MOSFET in parallel to each other are used  keeping in mind that each can take a max of around 33 Amps and combined will allow max of around 132 Amps for a quadrotor. For Hexacopter 7 MOSFETs should be used, one as a controller MOSFET and the rest 6(parallel to each other) in series with negative terminal of the power source/LIPO. 6 MOSFETs ensure that max current allowed for the bot is raised to around 190 Amps.  
 \item Below a particular duty cycle(T) the controller MOSFET has $V_g_s$<$V_t_h$ and will go in cutoff region as shown below leading zero drain current in it and potential drop across its drain resistor as a result rest MOSFETs will have Vgs=5V due to which they go in saturation region and with very low Vds and in this mode the bot is supplied with power source.\\
@@ -236,9 +255,71 @@ $Y_q^’$  = $Y_g + ut_0sin(\theta)$ \\
 \textbf{Kill Switch Circuit}\\ \\
 \end{center}
 \\
-\item Above a particular duty cycle(T) the controller MOSFET has $V_g_s$>$V_t_h$ and will go in saturation region and as a result rest MOSFETs will have $V_g_s$ = 0V due to potential drop across drain resistor of controller MOSFET and this will make the rest MOSFETs go in cutoff region as a result cutting of the negative terminal from battery and hence no power supply to the bot. The whole system shuts down instantly.
-\item Duty cycle(T) or as in our case PWM of signal  sent through the transmitter at which the bot is killed can be varied by varying the capacitor’s value.The bot is represented here as the 300 milliohms resistor as there was no way to symbolize the actual bot.
+\item Above a particular duty cycle(T) the controller MOSFET has $V_g_s$>$V_t_h$ and will go in saturation region and as a result rest MOSFETs will have $V_g_s$ = 0V due to potential drop across drain resistor of controller MOSFET and this will make the rest MOSFETs go in cutoff region as a result cutting off the negative terminal from battery and hence no power supply to the bot. The whole system shuts down instantly.
+\item Duty cycle(T) or as in our case PWM of signal  is sent through the transmitter at which the bot is killed can be varied by varying the capacitor’s value.The bot is represented here as the 300 milliohms resistor as there was no way to symbolize the actual bot.
 \end{itemize}
+
+
+\section{HERDING ALGORITHM AI}
+\subsection{Greedy Method}
+\begin{itemize}
+    \item The motif of this algorithm is to make as many bots cross the green line as possible with a fixed radius around the ground bot in which all the other bots will be herd with the centre bot towards the green line.
+    \item Once the hexacopter takes off, it will hold altitude at 1.5m (from ground) and hold position on the nearest node while holding its yaw.
+    \item The strategy has 3 parts:
+    	\begin{itemize}
+    		\item Searching
+    		\item Following
+    		\item Directing (bump or tap)
+    	\end{itemize}
+    \subsubsection{Searching}
+    At the start of the run the quad starts from one of the green line corners. The searching is implemented by
+horizontal movement of the quad parallel to the green line. It moves along in a line parallel to the green
+line stopping at every 2m to detect any groundbot in its field of view. On reaching the edge it moves
+perpendicular to the green line (upwards or downwards) by 1m .
+We have considered a rectangular field of view of 5m x 3m . By moving 2m in the parallel direction and 1m
+in the perpendicular direction we ensure multiple times overlapping of the visible region to increase the
+chances of finding a groundbot.
+This searching goes on upward and downward in the arena till we find a groundbot.
+Once a groundbot is detected, we lock on the groundbot, let’s say it is called lockedBot and switch to following it.
+	\subsubsection{Following}
+		Once we get a lockedBot , our aim is to follow it buy always keeping it in our field of view, and keeping
+its orientation towards the green line. For this we use the following algorithm:
+\begin{itemize}
+	\item Follow lockedBot
+	\item Continuously check if its orientation - 
+		\begin{itemize}
+			\item Lies in the correctRegion
+			\item Lies in tapRgion
+			\item Lies in bumpRegion
+		\end{itemize}
+	\item Wait if the lockedBot is executing a rotation
+\end{itemize}
+
+If, yaw is the orientation of the lockedBot , then, \\
+
+\begin{center}
+
+$yaw \in correctRegion  \ s.t \ yaw  \geq \theta1 \  \&  \ yaw  \leq \theta2$\\ 
+$yaw \in tapRegion \ s.t \ yaw  \leq \theta1 \ \& \ yaw  \geq (\theta2 + \pi)$\\
+$yaw \in bumpRegion \  s.t yaw \geq \theta2 \  \& \ yaw  \leq (\theta2 + \pi)$\\
+  	
+\end{center}
+
+where, 
+
+\begin{center}
+$\theta1 = atan2(10 - lockedBot.y, 10 - lockedBot.x)$\\
+$\theta2 = atan2(10 - lockedBot.y, -10 - lockedBot.x)$\\
+\end{center}    
+
+considering, center of the area as origin and y = 10 as the green line.
+
+	\subsubsection{Directing(bump or tap)}
+		Once we calculate in which region the orientation lies, corresponding command is given to the quad to do
+nothing, bump or tap. \\
+When the lockedBot is removed from the green line, we find a nearest node on the grid and start sarching from there, and then algorithm repeats.
+
+
 
 \section{TESTING}
 \begin{center}\includegraphics[scale=0.7]{ARK-lab-kgp1} \\
