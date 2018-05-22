@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.30)  22 MAY 2018 02:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.30)  23 MAY 2018 01:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -751,23 +751,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 
-     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 ! You can't use `\relax' after \advance.
 <argument> \advance \relax 
                            \leftmargin =0.8cm \labelwidth =\z@ \listparinden...
-l.35 \begin{abstract}
+l.33 \begin{abstract}
                      
 I'm forgetting what you said and not changing anything.
 
@@ -778,35 +765,35 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 \begin{center}
+l.35 \begin{center}
                    \textbf{ABSTRACT}\end{center}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 45.
+(Font)              size <12> substituted on input line 43.
 
 
 LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <13> not available
-(Font)              size <12> substituted on input line 45.
+(Font)              size <12> substituted on input line 43.
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 55--57
+Underfull \hbox (badness 1377) in paragraph at lines 53--55
 \T1/cmr/m/n/12 along with its math-e-mat-i-cal, phys-i-cal and vi-su-al-iza-tio
 n model.It also em-u-
  []
 
-<sim.png, id=168, 1220.56pt x 673.51625pt>
+<sim.png, id=192, 1220.56pt x 673.51625pt>
 File: sim.png Graphic file (type png)
  <use sim.png>
-Package pdftex.def Info: sim.png used on input line 57.
+Package pdftex.def Info: sim.png used on input line 55.
 (pdftex.def)             Requested size: 183.0761pt x 101.02307pt.
 
-<image22.png, id=169, 341.275pt x 447.6725pt>
+<image22.png, id=193, 341.275pt x 447.6725pt>
 File: image22.png Graphic file (type png)
  <use image22.png>
-Package pdftex.def Info: image22.png used on input line 61.
+Package pdftex.def Info: image22.png used on input line 59.
 (pdftex.def)             Requested size: 170.63707pt x 223.8357pt.
  [1
 
@@ -818,7 +805,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.63 
+l.61 
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -827,7 +814,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.68 ...nted by  a  two-element  ordered  set(\rho
+l.66 ...nted by  a  two-element  ordered  set(\rho
                                                   ;\theta).\  $\rho$  is  th...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -835,25 +822,25 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.68 ...lement  ordered  set(\rho;\theta).\  $\rho
+l.66 ...lement  ordered  set(\rho;\theta).\  $\rho
                                                   $  is  the  perpendicular ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Double subscript.
-l.68 ...s  with  the X axis  of image.   Let $L_r_
+l.66 ...s  with  the X axis  of image.   Let $L_r_
                                                   a_w$= \{ ($\rho$; $\theta$...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.68 ... with  the X axis  of image.   Let $L_r_a_
+l.66 ... with  the X axis  of image.   Let $L_r_a_
                                                   w$= \{ ($\rho$; $\theta$) ...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.68 ...  Let $L_r_a_w$= \{ ($\rho$; $\theta$) \in
+l.66 ...  Let $L_r_a_w$= \{ ($\rho$; $\theta$) \in
                                                    \  $R^2$ | \rho \geq 0;\ ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -861,7 +848,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.68 ...L_r_a_w$= \{ ($\rho$; $\theta$) \in \  $R^
+l.66 ...L_r_a_w$= \{ ($\rho$; $\theta$) \in \  $R^
                                                   2$ | \rho \geq 0;\ -\pi \ ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -869,7 +856,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.68 ... \{ ($\rho$; $\theta$) \in \  $R^2$ | \rho
+l.66 ... \{ ($\rho$; $\theta$) \in \  $R^2$ | \rho
                                                    \geq 0;\ -\pi \ \leq \the...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -877,55 +864,55 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.70  $L_
+l.68  $L_
          r_a_w$ = $L_i_n_l_i_e_r_s$ \bigcup \  $L_o_u_t_l_i_e_r_s$ \ , where...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Double subscript.
-l.70  $L_r_
+l.68  $L_r_
            a_w$ = $L_i_n_l_i_e_r_s$ \bigcup \  $L_o_u_t_l_i_e_r_s$ \ , where...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70  $L_r_a_
+l.68  $L_r_a_
              w$ = $L_i_n_l_i_e_r_s$ \bigcup \  $L_o_u_t_l_i_e_r_s$ \ , where...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70  $L_r_a_w$ = $L_i_
+l.68  $L_r_a_w$ = $L_i_
                        n_l_i_e_r_s$ \bigcup \  $L_o_u_t_l_i_e_r_s$ \ , where...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70  $L_r_a_w$ = $L_i_n_
+l.68  $L_r_a_w$ = $L_i_n_
                          l_i_e_r_s$ \bigcup \  $L_o_u_t_l_i_e_r_s$ \ , where...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70  $L_r_a_w$ = $L_i_n_l_
+l.68  $L_r_a_w$ = $L_i_n_l_
                            i_e_r_s$ \bigcup \  $L_o_u_t_l_i_e_r_s$ \ , where...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70  $L_r_a_w$ = $L_i_n_l_i_
+l.68  $L_r_a_w$ = $L_i_n_l_i_
                              e_r_s$ \bigcup \  $L_o_u_t_l_i_e_r_s$ \ , where...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70  $L_r_a_w$ = $L_i_n_l_i_e_
+l.68  $L_r_a_w$ = $L_i_n_l_i_e_
                                r_s$ \bigcup \  $L_o_u_t_l_i_e_r_s$ \ , where...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70  $L_r_a_w$ = $L_i_n_l_i_e_r_
+l.68  $L_r_a_w$ = $L_i_n_l_i_e_r_
                                  s$ \bigcup \  $L_o_u_t_l_i_e_r_s$ \ , where...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.70  $L_r_a_w$ = $L_i_n_l_i_e_r_s$ \bigcup
+l.68  $L_r_a_w$ = $L_i_n_l_i_e_r_s$ \bigcup
                                             \  $L_o_u_t_l_i_e_r_s$ \ , where...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -933,115 +920,115 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.70  $L_r_a_w$ = $L_i_n_l_i_e_r_s$ \bigcup \  $L_
+l.68  $L_r_a_w$ = $L_i_n_l_i_e_r_s$ \bigcup \  $L_
                                                   o_u_t_l_i_e_r_s$ \ , where...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Double subscript.
-l.70 ..._a_w$ = $L_i_n_l_i_e_r_s$ \bigcup \  $L_o_
+l.68 ..._a_w$ = $L_i_n_l_i_e_r_s$ \bigcup \  $L_o_
                                                   u_t_l_i_e_r_s$ \ , where $...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70 ..._w$ = $L_i_n_l_i_e_r_s$ \bigcup \  $L_o_u_
+l.68 ..._w$ = $L_i_n_l_i_e_r_s$ \bigcup \  $L_o_u_
                                                   t_l_i_e_r_s$ \ , where $L_...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70 ...$ = $L_i_n_l_i_e_r_s$ \bigcup \  $L_o_u_t_
+l.68 ...$ = $L_i_n_l_i_e_r_s$ \bigcup \  $L_o_u_t_
                                                   l_i_e_r_s$ \ , where $L_i_...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70 ...= $L_i_n_l_i_e_r_s$ \bigcup \  $L_o_u_t_l_
+l.68 ...= $L_i_n_l_i_e_r_s$ \bigcup \  $L_o_u_t_l_
                                                   i_e_r_s$ \ , where $L_i_n_...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70 ...$L_i_n_l_i_e_r_s$ \bigcup \  $L_o_u_t_l_i_
+l.68 ...$L_i_n_l_i_e_r_s$ \bigcup \  $L_o_u_t_l_i_
                                                   e_r_s$ \ , where $L_i_n_l_...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70 ..._i_n_l_i_e_r_s$ \bigcup \  $L_o_u_t_l_i_e_
+l.68 ..._i_n_l_i_e_r_s$ \bigcup \  $L_o_u_t_l_i_e_
                                                   r_s$ \ , where $L_i_n_l_i_...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70 ..._n_l_i_e_r_s$ \bigcup \  $L_o_u_t_l_i_e_r_
+l.68 ..._n_l_i_e_r_s$ \bigcup \  $L_o_u_t_l_i_e_r_
                                                   s$ \ , where $L_i_n_l_i_e_...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70 ...cup \  $L_o_u_t_l_i_e_r_s$ \ , where $L_i_
+l.68 ...cup \  $L_o_u_t_l_i_e_r_s$ \ , where $L_i_
                                                   n_l_i_e_r_i_s$  a  set  of...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70 ...p \  $L_o_u_t_l_i_e_r_s$ \ , where $L_i_n_
+l.68 ...p \  $L_o_u_t_l_i_e_r_s$ \ , where $L_i_n_
                                                   l_i_e_r_i_s$  a  set  of  ...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70 ...\  $L_o_u_t_l_i_e_r_s$ \ , where $L_i_n_l_
+l.68 ...\  $L_o_u_t_l_i_e_r_s$ \ , where $L_i_n_l_
                                                   i_e_r_i_s$  a  set  of  li...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70 ... $L_o_u_t_l_i_e_r_s$ \ , where $L_i_n_l_i_
+l.68 ... $L_o_u_t_l_i_e_r_s$ \ , where $L_i_n_l_i_
                                                   e_r_i_s$  a  set  of  line...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70 ...L_o_u_t_l_i_e_r_s$ \ , where $L_i_n_l_i_e_
+l.68 ...L_o_u_t_l_i_e_r_s$ \ , where $L_i_n_l_i_e_
                                                   r_i_s$  a  set  of  lines ...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70 ...o_u_t_l_i_e_r_s$ \ , where $L_i_n_l_i_e_r_
+l.68 ...o_u_t_l_i_e_r_s$ \ , where $L_i_n_l_i_e_r_
                                                   i_s$  a  set  of  lines  t...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70 ...u_t_l_i_e_r_s$ \ , where $L_i_n_l_i_e_r_i_
+l.68 ...u_t_l_i_e_r_s$ \ , where $L_i_n_l_i_e_r_i_
                                                   s$  a  set  of  lines  tha...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70 ...  that  belong  to  grid-lines,  and $L_o_
+l.68 ...  that  belong  to  grid-lines,  and $L_o_
                                                   u_t_l_i_e_r$ \ is  the set...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70 ...that  belong  to  grid-lines,  and $L_o_u_
+l.68 ...that  belong  to  grid-lines,  and $L_o_u_
                                                   t_l_i_e_r$ \ is  the set o...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70 ...at  belong  to  grid-lines,  and $L_o_u_t_
+l.68 ...at  belong  to  grid-lines,  and $L_o_u_t_
                                                   l_i_e_r$ \ is  the set of ...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70 ...  belong  to  grid-lines,  and $L_o_u_t_l_
+l.68 ...  belong  to  grid-lines,  and $L_o_u_t_l_
                                                   i_e_r$ \ is  the set of li...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70 ...belong  to  grid-lines,  and $L_o_u_t_l_i_
+l.68 ...belong  to  grid-lines,  and $L_o_u_t_l_i_
                                                   e_r$ \ is  the set of line...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.70 ...long  to  grid-lines,  and $L_o_u_t_l_i_e_
+l.68 ...long  to  grid-lines,  and $L_o_u_t_l_i_e_
                                                   r$ \ is  the set of lines ...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.70 ... a line is represented by a point in (\rho
+l.68 ... a line is represented by a point in (\rho
                                                   ;\theta) \ space.
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1049,99 +1036,100 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.71 \subsubsection{Detecting the Grid}
+l.69 \subsubsection{Detecting the Grid}
                                        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+[2 <./image22.png>]
 
 LaTeX Font Warning: Font shape `T1/cmr/m/it' in size <13> not available
-(Font)              size <12> substituted on input line 71.
+(Font)              size <12> substituted on input line 69.
 
 ! Double subscript.
-l.73 ...el  on  the  set of  detected  lines $L_r_
+l.71 ...el  on  the  set of  detected  lines $L_r_
                                                   a_w$ .  RANSAC  is  perfor...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.73 ...  on  the  set of  detected  lines $L_r_a_
+l.71 ...  on  the  set of  detected  lines $L_r_a_
                                                   w$ .  RANSAC  is  performe...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.73 ...est  sets  of  parallel  lines  from $L_r_
+l.71 ...est  sets  of  parallel  lines  from $L_r_
                                                   a_w$ .  Further,  the set ...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.73 ...t  sets  of  parallel  lines  from $L_r_a_
+l.71 ...t  sets  of  parallel  lines  from $L_r_a_
                                                   w$ .  Further,  the set  o...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.73 ...\theta$ closer  to 0 is  denoted  as $L_l_
+l.71 ...\theta$ closer  to 0 is  denoted  as $L_l_
                                                   o_n_g$ and  that  closer  ...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.73 ...heta$ closer  to 0 is  denoted  as $L_l_o_
+l.71 ...heta$ closer  to 0 is  denoted  as $L_l_o_
                                                   n_g$ and  that  closer  to...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.73 ...ta$ closer  to 0 is  denoted  as $L_l_o_n_
+l.71 ...ta$ closer  to 0 is  denoted  as $L_l_o_n_
                                                   g$ and  that  closer  to $...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.73 ...at  closer  to $\pi$/2 is denoted as $L_l_
+l.71 ...at  closer  to $\pi$/2 is denoted as $L_l_
                                                   a_t$ . Hence, the filtered...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.73 ...  closer  to $\pi$/2 is denoted as $L_l_a_
+l.71 ...  closer  to $\pi$/2 is denoted as $L_l_a_
                                                   t$ . Hence, the filtered s...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.73 ...$ . Hence, the filtered set of lines $L_f_
+l.71 ...$ . Hence, the filtered set of lines $L_f_
                                                   i_l$ , that contains  only...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.73 .... Hence, the filtered set of lines $L_f_i_
+l.71 .... Hence, the filtered set of lines $L_f_i_
                                                   l$ , that contains  only  ...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.73 ...  mean $\theta$ )  is  generated  as $L_f_
+l.71 ... in  mean $\theta$ is  generated  as $L_f_
                                                   i_l$ = \ $L_l_o_n_g$ \bigc...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.73 ...mean $\theta$ )  is  generated  as $L_f_i_
+l.71 ...n  mean $\theta$ is  generated  as $L_f_i_
                                                   l$ = \ $L_l_o_n_g$ \bigcup...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.73 ...$ )  is  generated  as $L_f_i_l$ = \ $L_l_
+l.71 ...eta$ is  generated  as $L_f_i_l$ = \ $L_l_
                                                   o_n_g$ \bigcup \ $L_l_a_t$
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.73 ...)  is  generated  as $L_f_i_l$ = \ $L_l_o_
+l.71 ...a$ is  generated  as $L_f_i_l$ = \ $L_l_o_
                                                   n_g$ \bigcup \ $L_l_a_t$
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.73 ... is  generated  as $L_f_i_l$ = \ $L_l_o_n_
+l.71 ... is  generated  as $L_f_i_l$ = \ $L_l_o_n_
                                                   g$ \bigcup \ $L_l_a_t$
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.73 ...ated  as $L_f_i_l$ = \ $L_l_o_n_g$ \bigcup
+l.71 ...ated  as $L_f_i_l$ = \ $L_l_o_n_g$ \bigcup
                                                    \ $L_l_a_t$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1149,70 +1137,50 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.73 ...as $L_f_i_l$ = \ $L_l_o_n_g$ \bigcup \ $L_
+l.71 ...as $L_f_i_l$ = \ $L_l_o_n_g$ \bigcup \ $L_
                                                   l_a_t$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Double subscript.
-l.73 ... $L_f_i_l$ = \ $L_l_o_n_g$ \bigcup \ $L_l_
+l.71 ... $L_f_i_l$ = \ $L_l_o_n_g$ \bigcup \ $L_l_
                                                   a_t$
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.73 ...L_f_i_l$ = \ $L_l_o_n_g$ \bigcup \ $L_l_a_
+l.71 ...L_f_i_l$ = \ $L_l_o_n_g$ \bigcup \ $L_l_a_
                                                   t$
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.75 ...  probability  density  of $\rho$ in $L_l_
+l.73 ...  probability  density  of $\rho$ in $L_l_
                                                   a_t$ and $L_l_o_n_g$ indiv...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.75 ...probability  density  of $\rho$ in $L_l_a_
+l.73 ...probability  density  of $\rho$ in $L_l_a_
                                                   t$ and $L_l_o_n_g$ individ...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.75 ... density  of $\rho$ in $L_l_a_t$ and $L_l_
+l.73 ... density  of $\rho$ in $L_l_a_t$ and $L_l_
                                                   o_n_g$ individually, as gi...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.75 ...ensity  of $\rho$ in $L_l_a_t$ and $L_l_o_
+l.73 ...ensity  of $\rho$ in $L_l_a_t$ and $L_l_o_
                                                   n_g$ individually, as give...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.75 ...sity  of $\rho$ in $L_l_a_t$ and $L_l_o_n_
-                                                  g$ individually, as given ...
+l.73 ...sity  of $\rho$ in $L_l_a_t$ and $L_l_o_n_
+                                                  g$ individually, as given by
 I treat `x_1_2' essentially like `x_1{}_2'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--76
-
- []
-
-[2 <./image22.png>]
-
-LaTeX Font Warning: Command \LARGE invalid in math mode on input line 77.
-
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.78 $
-      f_b($\rho$)$ \  = \frac{1}{nb} $\sum\limits_{i=1}^{n}$ K\left(\frac{\r...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
 ! Display math should end with $$.
 <to be read again> 
                    f
-l.78 $f
+l.75 $f
        _b($\rho$)$ \  = \frac{1}{nb} $\sum\limits_{i=1}^{n}$ K\left(\frac{\r...
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -1220,7 +1188,7 @@ So I shall assume that you typed `$$' both times.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.78 $f_
+l.75 $f_
         b($\rho$)$ \  = \frac{1}{nb} $\sum\limits_{i=1}^{n}$ K\left(\frac{\r...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1228,7 +1196,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.78 $f_b($\rho
+l.75 $f_b($\rho
                $)$ \  = \frac{1}{nb} $\sum\limits_{i=1}^{n}$ K\left(\frac{\r...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1236,7 +1204,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.78 $f_b($\rho$)$ \  = \frac{1}{nb} $\sum
+l.75 $f_b($\rho$)$ \  = \frac{1}{nb} $\sum
                                           \limits_{i=1}^{n}$ K\left(\frac{\r...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1244,29 +1212,16 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.78 ...frac{1}{nb} $\sum\limits_{i=1}^{n}$ K\left
+l.75 ...frac{1}{nb} $\sum\limits_{i=1}^{n}$ K\left
                                                   (\frac{\rho - \rho_i}{b}\r...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-
-! LaTeX Error: \begin{equation*} on input line 76 ended by \end{LARGE}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.79 \end{LARGE}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.79 \end{LARGE}
-                
+l.76 \end{equation*}
+                     \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1274,139 +1229,92 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-! LaTeX Error: Bad math environment delimiter.
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80 \end{equation*}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
 
-
-! LaTeX Error: \begin{document} ended by \end{equation*}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80 \end{equation*}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.80 \end{equation*}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.80 \end{equation*}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.80 \end{equation*}
-                    
-Things are pretty mixed up, but I think the worst is over.
-
-<grid2.JPG, id=193, 446.26724pt x 162.00525pt>
+<grid2.JPG, id=217, 446.26724pt x 162.00525pt>
 File: grid2.JPG Graphic file (type jpg)
  <use grid2.JPG>
-Package pdftex.def Info: grid2.JPG used on input line 82.
+Package pdftex.def Info: grid2.JPG used on input line 78.
 (pdftex.def)             Requested size: 267.7624pt x 97.20389pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 87.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 83.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
 
 ! Double subscript.
-l.87 ...ce,  the slopes of the linear curves $m_l_
+l.83 ...ce,  the slopes of the linear curves $m_l_
                                                   a_t$ and $m_l_o_n_g$ , joi...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.87 ...,  the slopes of the linear curves $m_l_a_
+l.83 ...,  the slopes of the linear curves $m_l_a_
                                                   t$ and $m_l_o_n_g$ , joini...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.87 ...s of the linear curves $m_l_a_t$ and $m_l_
+l.83 ...s of the linear curves $m_l_a_t$ and $m_l_
                                                   o_n_g$ , joining the order...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.87 ...of the linear curves $m_l_a_t$ and $m_l_o_
+l.83 ...of the linear curves $m_l_a_t$ and $m_l_o_
                                                   n_g$ , joining the ordered...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.87 ... the linear curves $m_l_a_t$ and $m_l_o_n_
+l.83 ... the linear curves $m_l_a_t$ and $m_l_o_n_
                                                   g$ , joining the ordered s...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.87 ...rdered sets  of  parallel  lines  in $L_l_
+l.83 ...rdered sets  of  parallel  lines  in $L_l_
                                                   a_t$ and $L_l_o_n_g$ are  ...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.87 ...ered sets  of  parallel  lines  in $L_l_a_
+l.83 ...ered sets  of  parallel  lines  in $L_l_a_
                                                   t$ and $L_l_o_n_g$ are  re...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.87 ...f  parallel  lines  in $L_l_a_t$ and $L_l_
+l.83 ...f  parallel  lines  in $L_l_a_t$ and $L_l_
                                                   o_n_g$ are  related  to ro...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.87 ... parallel  lines  in $L_l_a_t$ and $L_l_o_
+l.83 ... parallel  lines  in $L_l_a_t$ and $L_l_o_
                                                   n_g$ are  related  to roll...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.87 ...arallel  lines  in $L_l_a_t$ and $L_l_o_n_
+l.83 ...arallel  lines  in $L_l_a_t$ and $L_l_o_n_
                                                   g$ are  related  to roll (...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double superscript.
-l.88     $\alpha$ = \ $tan^-^
+l.84     $\alpha$ = \ $tan^-^
                              1(m_l_a_t)$ \times \  $\epsilon_\alpha$ + $\eps...
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double subscript.
-l.88     $\alpha$ = \ $tan^-^1(m_l_
+l.84     $\alpha$ = \ $tan^-^1(m_l_
                                    a_t)$ \times \  $\epsilon_\alpha$ + $\eps...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.88     $\alpha$ = \ $tan^-^1(m_l_a_
+l.84     $\alpha$ = \ $tan^-^1(m_l_a_
                                      t)$ \times \  $\epsilon_\alpha$ + $\eps...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.88     $\alpha$ = \ $tan^-^1(m_l_a_t)$ \times
+l.84     $\alpha$ = \ $tan^-^1(m_l_a_t)$ \times
                                                 \  $\epsilon_\alpha$ + $\eps...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1414,40 +1322,40 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.88 ...= \ $tan^-^1(m_l_a_t)$ \times \  $\epsilon
+l.84 ...= \ $tan^-^1(m_l_a_t)$ \times \  $\epsilon
                                                   _\alpha$ + $\epsilon_c_\al...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Double subscript.
-l.88 ...\times \  $\epsilon_\alpha$ + $\epsilon_c_
+l.84 ...\times \  $\epsilon_\alpha$ + $\epsilon_c_
                                                   \alpha$ \\
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double superscript.
-l.89     $\beta$ = \ $tan^-^
+l.85     $\beta$ = \ $tan^-^
                             1(m_l_o_n_g)$ \times \  $\epsilon_\beta$ + $\eps...
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double subscript.
-l.89     $\beta$ = \ $tan^-^1(m_l_
+l.85     $\beta$ = \ $tan^-^1(m_l_
                                   o_n_g)$ \times \  $\epsilon_\beta$ + $\eps...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.89     $\beta$ = \ $tan^-^1(m_l_o_
+l.85     $\beta$ = \ $tan^-^1(m_l_o_
                                     n_g)$ \times \  $\epsilon_\beta$ + $\eps...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.89     $\beta$ = \ $tan^-^1(m_l_o_n_
+l.85     $\beta$ = \ $tan^-^1(m_l_o_n_
                                       g)$ \times \  $\epsilon_\beta$ + $\eps...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.89     $\beta$ = \ $tan^-^1(m_l_o_n_g)$ \times
+l.85     $\beta$ = \ $tan^-^1(m_l_o_n_g)$ \times
                                                  \  $\epsilon_\beta$ + $\eps...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1455,35 +1363,30 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.89 ...\ $tan^-^1(m_l_o_n_g)$ \times \  $\epsilon
+l.85 ...\ $tan^-^1(m_l_o_n_g)$ \times \  $\epsilon
                                                   _\beta$ + $\epsilon_c_\bet...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Double subscript.
-l.89 ... \times \  $\epsilon_\beta$ + $\epsilon_c_
+l.85 ... \times \  $\epsilon_\beta$ + $\epsilon_c_
                                                   \beta$ \\
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.90     where $\epsilon_\alpha$, $\epsilon_c_
+l.86     where $\epsilon_\alpha$, $\epsilon_c_
                                               \alpha$, $\epsilon_\beta$ and ...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.90 ...\alpha$, $\epsilon_\beta$ and $\epsilon_c_
+l.86 ...\alpha$, $\epsilon_\beta$ and $\epsilon_c_
                                                   \beta$ are constants obtai...
 I treat `x_1_2' essentially like `x_1{}_2'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-
- []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.95 ...position and height based on observed \rho
+l.91 ...position and height based on observed \rho
                                                    .
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1495,7 +1398,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.96 \end{itemize}
+l.92 \end{itemize}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1507,7 +1410,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.96 \end{itemize}
+l.92 \end{itemize}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1519,7 +1422,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.96 \end{itemize}
+l.92 \end{itemize}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1527,7 +1430,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.96 \end{itemize}
+l.92 \end{itemize}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1535,102 +1438,102 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<grid.JPG, id=194, 273.4215pt x 184.89075pt>
+<grid.JPG, id=218, 273.4215pt x 184.89075pt>
 File: grid.JPG Graphic file (type jpg)
  <use grid.JPG>
-Package pdftex.def Info: grid.JPG used on input line 98.
+Package pdftex.def Info: grid.JPG used on input line 94.
 (pdftex.def)             Requested size: 164.05414pt x 110.93529pt.
  [3 <./grid2.JPG>]
 ! Too many }'s.
-l.100 \end{center}}
-                   
+l.96 \end{center}}
+                  
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
 ! Double superscript.
-l.102 ...ition  over the grid-based floor at $k^t^
+l.98 ...sition  over the grid-based floor at $k^t^
                                                   h$ frame. Hence we have \\
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
-l.104 At $(k + 1)^t^
+l.100 At $(k + 1)^t^
                     h$ frame, the new sub-cell position $\sigma^k^+^1_Y$ , m...
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
-l.104 ...ame, the new sub-cell position $\sigma^k^
+l.100 ...ame, the new sub-cell position $\sigma^k^
                                                   +^1_Y$ , might be from $u_...
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
-l.104 ...e, the new sub-cell position $\sigma^k^+^
+l.100 ...e, the new sub-cell position $\sigma^k^+^
                                                   1_Y$ , might be from $u_k_...
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double subscript.
-l.104 ...on $\sigma^k^+^1_Y$ , might be from $u_k_
+l.100 ...on $\sigma^k^+^1_Y$ , might be from $u_k_
                                                   -_1$ ,$u_k$ or $u_k_+_1$ u...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.104 ... $\sigma^k^+^1_Y$ , might be from $u_k_-_
+l.100 ... $\sigma^k^+^1_Y$ , might be from $u_k_-_
                                                   1$ ,$u_k$ or $u_k_+_1$ uni...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.104 ..., might be from $u_k_-_1$ ,$u_k$ or $u_k_
+l.100 ..., might be from $u_k_-_1$ ,$u_k$ or $u_k_
                                                   +_1$ unit cell, considerin...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.104 ...might be from $u_k_-_1$ ,$u_k$ or $u_k_+_
+l.100 ...might be from $u_k_-_1$ ,$u_k$ or $u_k_+_
                                                   1$ unit cell, considering ...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double superscript.
-l.104 ...ssible position of the MAV at $(k + 1)^t^
+l.100 ...ssible position of the MAV at $(k + 1)^t^
                                                   h$ frame are $P_Y$ = $\{(p...
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double subscript.
-l.104 ... $(k + 1)^t^h$ frame are $P_Y$ = $\{(p_Y_
+l.100 ... $(k + 1)^t^h$ frame are $P_Y$ = $\{(p_Y_
                                                   - 1);(p_Y);(p_Y + 1)$ \\
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double superscript.
-l.105 where $p_Y$ = $p^k_Y$ + $\sigma^k^
+l.101 where $p_Y$ = $p^k_Y$ + $\sigma^k^
                                         +^1_Y$ - $\sigma^k_Y$. The MAV’s n...
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
-l.105 where $p_Y$ = $p^k_Y$ + $\sigma^k^+^
+l.101 where $p_Y$ = $p^k_Y$ + $\sigma^k^+^
                                           1_Y$ - $\sigma^k_Y$. The MAV’s n...
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
-l.105 ...gma^k_Y$. The MAV’s new position $(p^k^
+l.101 ...gma^k_Y$. The MAV’s new position $(p^k^
                                                   +^1_Y)$ is given by a winn...
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
-l.105 ...a^k_Y$. The MAV’s new position $(p^k^+^
+l.101 ...a^k_Y$. The MAV’s new position $(p^k^+^
                                                   1_Y)$ is given by a winner...
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
-l.105 ...r take all (WTA) scheme, decided by $p^k^
+l.101 ...r take all (WTA) scheme, decided by $p^k^
                                                   +^1_Y$ = $argmin(p^k_Y - p...
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
-l.105 ...take all (WTA) scheme, decided by $p^k^+^
+l.101 ...take all (WTA) scheme, decided by $p^k^+^
                                                   1_Y$ = $argmin(p^k_Y - p^'...
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Missing { inserted.
 <to be read again> 
                    ^
-l.105 ...ided by $p^k^+^1_Y$ = $argmin(p^k_Y - p^'
+l.101 ...ided by $p^k^+^1_Y$ = $argmin(p^k_Y - p^'
                                                   $$_Y )^2$
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -1640,7 +1543,7 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.105 ...ded by $p^k^+^1_Y$ = $argmin(p^k_Y - p^'$
+l.101 ...ded by $p^k^+^1_Y$ = $argmin(p^k_Y - p^'$
                                                   $_Y )^2$
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1648,53 +1551,85 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<Pic2.jpg, id=204, 642.4pt x 481.8pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
+
+ []
+
+<Pic2.jpg, id=228, 642.4pt x 481.8pt>
 File: Pic2.jpg Graphic file (type jpg)
  <use Pic2.jpg>
 Package pdftex.def Info: Pic2.jpg used on input line 113.
 (pdftex.def)             Requested size: 128.47772pt x 96.35829pt.
-
-<trig.png, id=205, 398.48875pt x 236.885pt>
+ [4 <./grid.JPG>]
+<trig.png, id=235, 398.48875pt x 236.885pt>
 File: trig.png Graphic file (type png)
  <use trig.png>
-Package pdftex.def Info: trig.png used on input line 119.
+Package pdftex.def Info: trig.png used on input line 144.
 (pdftex.def)             Requested size: 175.33559pt x 104.2297pt.
- [4 <./grid.JPG> <./Pic2.jpg>] [5 <./trig.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 157--163
+ [5 <./Pic2.jpg>]
+! Double subscript.
+l.169     u_x_
+              {k-1} + v\delta t cos(\theta_{k-1})\\
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.170     u_y_
+              {k-1} + v\delta t sin(\theta_{k-1}) \\
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+
+Overfull \hbox (102.09843pt too wide) detected at line 202
+\OML/cmm/m/it/12 Q \OT1/cmr/m/n/12 = []
+ []
+
+[6 <./trig.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--163
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
 
  []
 
+<activeloc.png, id=246, 1498.59875pt x 1010.77625pt>
+File: activeloc.png Graphic file (type png)
+ <use activeloc.png>
+Package pdftex.def Info: activeloc.png used on input line 211.
+(pdftex.def)             Requested size: 149.86865pt x 101.08354pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--251
+
+ []
+
+[7 <./activeloc.png>]
 ! Too many }'s.
-l.171             \end{itemize}}
+l.259             \end{itemize}}
                                 
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 186--188
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--276
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--188
-
- []
-
-<tap.png, id=222, 710.655pt x 281.05pt>
+[8] <tap.png, id=259, 710.655pt x 281.05pt>
 File: tap.png Graphic file (type png)
  <use tap.png>
-Package pdftex.def Info: tap.png used on input line 189.
+Package pdftex.def Info: tap.png used on input line 277.
 (pdftex.def)             Requested size: 355.32663pt x 140.52464pt.
 
 ! Missing { inserted.
 <to be read again> 
                    \begingroup 
-l.202 ($X_q^’
+l.290 ($X_q^’
                $, $Y_q^’$, $Z_q$) = Desired Coordinates of the MAV before ...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -1702,12 +1637,12 @@ so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 202.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 290.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.202 ($X_q^’$
+l.290 ($X_q^’$
                 , $Y_q^’$, $Z_q$) = Desired Coordinates of the MAV before ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1718,7 +1653,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing { inserted.
 <to be read again> 
                    \begingroup 
-l.202 ($X_q^’$, $Y_q^’
+l.290 ($X_q^’$, $Y_q^’
                           $, $Z_q$) = Desired Coordinates of the MAV before ...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -1726,12 +1661,12 @@ so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 202.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 290.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.202 ($X_q^’$, $Y_q^’$
+l.290 ($X_q^’$, $Y_q^’$
                            , $Z_q$) = Desired Coordinates of the MAV before ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1739,11 +1674,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[7 <./tap.png>]
 ! Missing { inserted.
 <to be read again> 
                    \begingroup 
-l.210 $X_q^’
+l.298 $X_q^’
               $ = $X_g + ut_0cos(\theta)$
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -1751,12 +1685,12 @@ so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 210.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 298.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.210 $X_q^’$
+l.298 $X_q^’$
                 = $X_g + ut_0cos(\theta)$
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1767,7 +1701,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing { inserted.
 <to be read again> 
                    \begingroup 
-l.212 $Y_q^’
+l.300 $Y_q^’
               $  = $Y_g + ut_0sin(\theta)$ \\
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -1775,12 +1709,12 @@ so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 212.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 300.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.212 $Y_q^’$
+l.300 $Y_q^’$
                  = $Y_g + ut_0sin(\theta)$ \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1788,12 +1722,15 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<hex.jpg, id=230, 2055.68pt x 1156.32pt>
+<hex.jpg, id=260, 2055.68pt x 1156.32pt>
 File: hex.jpg Graphic file (type jpg)
  <use hex.jpg>
-Package pdftex.def Info: hex.jpg used on input line 216.
+Package pdftex.def Info: hex.jpg used on input line 304.
 (pdftex.def)             Requested size: 308.3387pt x 173.4405pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./tap.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1801,32 +1738,32 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.218 \subsection
+l.306 \subsection
                  {Configuration}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[8 <./hex.jpg>]
+[10 <./hex.jpg>]
 ! Double subscript.
-l.252 ... cycle(T) the controller MOSFET has $V_g_
+l.340 ... cycle(T) the controller MOSFET has $V_g_
                                                   s$<$V_t_h$ and will go in ...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.252 ...) the controller MOSFET has $V_g_s$<$V_t_
+l.340 ...) the controller MOSFET has $V_g_s$<$V_t_
                                                   h$ and will go in cutoff r...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
-<kill.JPG, id=236, 709.4505pt x 310.761pt>
+<kill.JPG, id=272, 709.4505pt x 310.761pt>
 File: kill.JPG Graphic file (type jpg)
  <use kill.JPG>
-Package pdftex.def Info: kill.JPG used on input line 254.
+Package pdftex.def Info: kill.JPG used on input line 342.
 (pdftex.def)             Requested size: 283.77516pt x 124.30219pt.
 
 
@@ -1836,7 +1773,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.255 \textbf{Kill Switch Circuit}\\ \\
+l.343 \textbf{Kill Switch Circuit}\\ \\
                                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1849,7 +1786,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.258 \item
+l.346 \item
             Above a particular duty cycle(T) the controller MOSFET has $V_g_...
 
 Your command was ignored.
@@ -1857,31 +1794,31 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Double subscript.
-l.258 ... cycle(T) the controller MOSFET has $V_g_
+l.346 ... cycle(T) the controller MOSFET has $V_g_
                                                   s$>$V_t_h$ and will go in ...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.258 ...) the controller MOSFET has $V_g_s$>$V_t_
+l.346 ...) the controller MOSFET has $V_g_s$>$V_t_
                                                   h$ and will go in saturati...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.258 ... as a result rest MOSFETs will have $V_g_
+l.346 ... as a result rest MOSFETs will have $V_g_
                                                   s$ = 0V due to potential d...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-[9 <./kill.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
+[11 <./kill.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
 
  []
 
-[10] <ARK-lab-kgp1.jpg, id=247, 401.5pt x 297.11pt>
+<ARK-lab-kgp1.jpg, id=278, 401.5pt x 297.11pt>
 File: ARK-lab-kgp1.jpg Graphic file (type jpg)
  <use ARK-lab-kgp1.jpg>
-Package pdftex.def Info: ARK-lab-kgp1.jpg used on input line 325.
+Package pdftex.def Info: ARK-lab-kgp1.jpg used on input line 413.
 (pdftex.def)             Requested size: 281.04808pt x 207.97557pt.
-
+ [12]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1889,20 +1826,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.327 W
+l.415 W
        e have an indoor testing arena with sample grid floor as in IARC aren...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[11 <./ARK-lab-kgp1.jpg>] <st_mcn.jpg, id=253, 783.92876pt x 1143.27126pt>
+<st_mcn.jpg, id=284, 783.92876pt x 1143.27126pt>
 File: st_mcn.jpg Graphic file (type jpg)
-
-<use st_mcn.jpg>
-Package pdftex.def Info: st_mcn.jpg used on input line 348.
+ <use st_mcn.jpg>
+Package pdftex.def Info: st_mcn.jpg used on input line 436.
 (pdftex.def)             Requested size: 313.56595pt x 457.3004pt.
-
+ [13 <./ARK-lab-kgp1.jpg>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1910,55 +1846,55 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.350 \item
+l.438 \item
            {Strategy state tries to analyze the different states of the bot ...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[12 <./st_mcn.jpg>] [13] 
+[14 <./st_mcn.jpg>] 
 AED: lastpage setting LastPage
-[14]
+[15]
 
-! LaTeX Error: \begin{itemize} on input line 265 ended by \end{document}.
+! LaTeX Error: \begin{itemize} on input line 353 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.390 \end{document}
+l.481 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 390.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 390.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 481.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 481.
 (./sbc-template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 390.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 390.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 481.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 481.
 Package rerunfilecheck Info: File `sbc-template.out' has not changed.
-(rerunfilecheck)             Checksum: 8D27791DC5F13F9892E42C54E8C8D28D;2733.
+(rerunfilecheck)             Checksum: 91DB8C1EEE47D8B5527C51A4EA5D4BBA;3165.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 390.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 481.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 265 (\begingroup)
+### semi simple group (level 1) entered at line 353 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 7482 strings out of 494910
- 103972 string characters out of 6179836
- 198994 words of memory out of 5000000
- 10592 multiletter control sequences out of 15000+600000
- 14494 words of font info for 36 fonts, out of 8000000 for 9000
+ 7505 strings out of 494910
+ 104320 string characters out of 6179836
+ 198000 words of memory out of 5000000
+ 10605 multiletter control sequences out of 15000+600000
+ 13722 words of font info for 35 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 36i,12n,45p,1104b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,45p,1120b,549s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/palak/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.6
 00pk> </home/palak/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </hom
 e/palak/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/palak/.te
@@ -1968,13 +1904,14 @@ ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on sbc-template.pdf (14 pages, 2361357 bytes).
+/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on sbc-template.pdf (15 pages, 4305073 bytes).
 PDF statistics:
- 614 PDF objects out of 1000 (max. 8388607)
- 343 compressed objects within 4 object streams
- 75 named destinations out of 1000 (max. 500000)
- 384 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 657 PDF objects out of 1000 (max. 8388607)
+ 383 compressed objects within 4 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 437 words of extra memory for PDF output out of 10000 (max. 10000000)
 
